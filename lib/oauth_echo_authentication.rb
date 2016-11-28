@@ -61,4 +61,4 @@ module OauthEchoAuthentication
   end
 end
 
-ActionController::Base.send :include, OauthEchoAuthentication::ControllerMethods
+AbstractController::Base.send :include, OauthEchoAuthentication::ControllerMethods
